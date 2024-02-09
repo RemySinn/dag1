@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .style1{
+            background-color: aqua; border: 2px;
+        }
+        .style2{
+            background-color: rgb(216, 235, 15); border: 2px;
+        }
+        #id1 {
+            font-size: medium; font-style: italic;
+        }
+        #id2 {
+            font-weight: 300; background-size: 1cm; background-color: blueviolet;
+        }
+    </style>
+    <script>
+        let a = 6;
+        let b = 8;
+        let c = 2;
+        let d = 9;
+
+        let devide = b / c
+        let subtract = a - d
+        let multiply = a * c
+        
+        alert(devide);
+        console.log(subtract);
+        alert(multiply);
+        function display() {
+            alert(multiply)
+        }
+    </script>
+</head>
+<body>
+    <a href="https://www.workingtalent.nl/">Ga nu naar de Working Talent site</a>
+    <ul class="style1">
+        <li> 1 </li>
+        <li> 2 </li>
+        <li> 3 </li>
+        <li> 4 </li>
+    </ul>
+    <ol class="style2">
+        <li> hallo </li>
+        <li> hallo </li>
+        <li> hallo </li>
+        <li> hallo </li>
+    </ol>
+
+    <table>
+        <tr> 
+            <td id="id1"> x </td>
+            <td id="id2"> x </td>
+            <td> o </td>
+        </tr>
+        <tr> 
+            <td> 0 </td>
+            <td> x </td>
+            <td> o </td>
+        </tr>
+        <tr> 
+            <td> x </td>
+            <td> o </td>
+            <td> o </td>
+        </tr>
+    </table>
+    <button type="button" onclick="display()">
+        Click hier om te weten wat 6 X 2 is.
+
+    </button>
+</body>
+</html>
